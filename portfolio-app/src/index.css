@@ -1,3 +1,64 @@
+/* index.css */
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Homepage styling */
+.introduction-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+  border-bottom: 2px solid darkgray;
+}
+
+.introduction-block {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.headshot {  
+  width: 200px;  
+  height: 200px; 
+  border-radius: 50%; 
+  object-fit: cover;
+  border: 5px solid white; 
+}
+
+.about-me-btn{
+  margin: 20px;
+  width: 200px;
+
+}
+
+.home-div{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+/* Project Styling */
+.projects {
+  justify-items: center;
+  margin: 10px;
+}
+
+.projects-card-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  justify-items: center;
+}
+
+.project-card {
+  height: 200px;
 }

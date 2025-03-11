@@ -1,10 +1,6 @@
-import { NavLink } from "react-router-dom";
-
 const Footer = () => (
-    <footer className="bg-dark text-light text-center py-3">
-      <div className="container">
-        <p className="mb-0">&copy; {new Date().getFullYear()} Your Company. All Rights Reserved.</p>
-      </div>
+    <footer className="p-4 bg-dark text-white-50 text-center shadow-sm fixed-bottom mt-auto">
+      © 2025 Chris Langille. All Rights Reserved.
     </footer>
 );
 
